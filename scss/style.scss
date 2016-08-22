@@ -19,6 +19,10 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 @import 'bourbon';
 
+// Foundation Modules via CodeKit
+@import 'header-sizes';
+@import 'hide-text';
+
 @import 'settings';
 
 @import '../bower_components/font-awesome/scss/font-awesome';
@@ -70,3 +74,12 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 // @include motion-ui-transitions;
 // @include motion-ui-animations;
+
+// Foundation Partials via CodeKit
+@import 'browsehappy';
+@import 'modifiers';
+
+// Custom Partials
+@import 'partials/base';
+@import 'partials/header';
+@import 'partials/footer';

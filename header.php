@@ -85,6 +85,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<!--[if lt IE 9]>
+  	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'client-theme' ); ?></a>
 
